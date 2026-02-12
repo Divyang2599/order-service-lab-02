@@ -1,7 +1,7 @@
 # Test the order-service
 
 ### Place an order
-POST http://localhost:3000/orders
+POST order-services-gwfshvdhg2e2ahbp.canadacentral-01.azurewebsites.net
 Content-Type: application/json
 
 {
