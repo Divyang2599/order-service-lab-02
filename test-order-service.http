@@ -1,9 +1,10 @@
 # Test the order-service
 
 ### Place an order
-POST order-services-gwfshvdhg2e2ahbp.canadacentral-01.azurewebsites.net
+POST https://order-services-gwfshvdhg2e2ahbp.canadacentral-01.azurewebsites.net
 Content-Type: application/json
 
 {
-  "product": "Cat Food"
+  "product": "Cat Food",
+  "price": "59.99$"
 }
